@@ -1,4 +1,4 @@
-const CDC_RSS_URL = `https://tools.cdc.gov/medialibrary/index.aspx#/feed/id/403372`;
+const CDC_RSS_URL = `https://tools.cdc.gov/api/v2/resources/media/403372.rss`;
 
 fetch(CDC_RSS_URL)
     .then(response => response.text())
